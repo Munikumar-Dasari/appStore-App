@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-heading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  border: 2px solid #7b8794;
+  margin-bottom: 20px;
+}
+
+.user-input {
+  background-color: transparent;
+  border-width: 0px;
+  color: #7b8794;
+  font-size: 20px;
+}
+
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.tabItem-container {
+  display: flex;
+}
+
+.apps-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    height: 100vh;
+  }
+  .app-heading {
+    font-size: 34px;
+  }
+
+  .user-input {
+    font-size: 26px;
+  }
+
+  .search-icon {
+    height: 30px;
+    width: 30px;
+  }
+}
